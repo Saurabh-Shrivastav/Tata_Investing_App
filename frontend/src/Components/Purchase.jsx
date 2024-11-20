@@ -9,7 +9,7 @@ function Purchase() {
 
     // Fetch confirmed purchases
     useEffect(() => {
-        fetch('http://localhost:4000/purchases')
+        fetch('https://tata-investing-app.onrender.com/purchases')
             .then((response) => response.json())
             .then((data) => {
                 setPurchases(data);
